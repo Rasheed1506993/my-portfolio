@@ -1,6 +1,6 @@
 {
   "name": "my-portfolio",
-  "private": true,
+  "homepage": "https://Rasheed1506993.github.io/my-portfolio/",  
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -8,6 +8,8 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@tailwindcss/postcss": "^4.1.3",

@@ -7,6 +7,6 @@ export default defineConfig(({ mode }) => ({
   plugins: [
     react(),
   ],
-  base: '/my-portfolio/',
+  base: '/my-portfolio',
 }));
 
